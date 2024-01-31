@@ -1,0 +1,141 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 80vh;
+}
+
+.flex img {
+    width: 245px;
+    margin-top: 35px;
+}
+
+.form {
+    width: 380px;
+    height: 310px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+    border-radius: 7px;
+    border: none;
+    box-shadow: 2px 5px 10px 2px rgba(0, 0, 0, 0.1);
+}
+
+.form input {
+    width: 87%;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form p {
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-top: 20px;
+}
+
+.form input,
+button {
+
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.form button {
+    width: 93%;
+    margin: 0 auto;
+    height: 45px;
+    font-size: 20px;
+    color: white;
+    background-color: rgba(22, 111, 229, 0.9);
+    font-weight: 600;
+    cursor: pointer;
+}
+
+input::placeholder {
+    font-size: 17px;
+    opacity: 0.5;
+}
+
+.form input:first-of-type {
+    margin-top: 10px;
+}
+.s2 {
+    height: 40vh;
+    background-color: white;
+}
+
+.aa {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(138, 141, 145, 0.788);
+}
+
+.b {
+    width: 70%;
+    margin: 0px auto;
+    /* border: 1px solid black; */
+}
+
+.s2 a {
+    text-decoration: none;
+    color: #8A8D91;
+    font-size: 13px;
+    line-height: 15px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.linkk a {
+    font-size: 14px;
+    text-decoration: none;
+    color: #1877F2;
+}
+
+footer {
+    color: #8A8D91;
+    font-size: 11px;
+}
+
+.aa {
+    display: block;
+    /* border: 1px solid black; */
+    margin-top: 50px !important;
+}
+
+.sect {
+    background-color: rgb(242, 242, 245);
+}
+.dis{
+    justify-content: center !important;
+    align-items: center;
+    text-align: center;
+    display: none;
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid red;
+    height: 50px;
+    background-color: #FFEBE8;
+}
+.dis p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
